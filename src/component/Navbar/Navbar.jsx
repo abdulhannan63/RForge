@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className={`${menu} relative z-50 w-full md:block md:w-auto`} id="navbar-default">
                         <ul className="font-medium flex flex-col p-4 md:p-0mt-4 border border-black-100 rounded-lg bg-black-50 md:flex-row md:items-center md:justify-center md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-black">
                             <li>
-                                <NavLink to='/RForge' className={blue!=="home"?`block py-2 px-3 text-white  md:bg-transparent  md:p-0 dark:text-white hover:dark:text-blue-500`:
+                                <NavLink to='/' className={blue!=="home"?`block py-2 px-3 text-white  md:bg-transparent  md:p-0 dark:text-white hover:dark:text-blue-500`:
                                 "bg-blue-700 rounded  md:text-blue-700 block py-2 px-3 text-white  md:bg-transparent  md:p-0 dark:text-white md:dark:text-blue-500"} onClick={()=>setblue('home')} aria-current="page">Home</NavLink>
                                 {/*  */}
                             </li>
