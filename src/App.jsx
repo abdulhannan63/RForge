@@ -14,7 +14,7 @@ const App = () => {
           <Navbar />
           <div className='mx-4 md:mx-7'>
             <Routes >
-              <Route path='/' element={<Home />} ></Route>
+              <Route path='/RForge' element={<Home />} ></Route>
               <Route path='/about' element={<About />} ></Route>
               <Route path='/built' element={<BulidResume />} ></Route>
               <Route path='/resume' element={<Resume />} ></Route>
