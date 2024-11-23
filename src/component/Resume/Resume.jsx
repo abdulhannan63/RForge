@@ -53,9 +53,7 @@ function Resume() {
                 <>
                     {/* some features for   */}
                     <div className='noprint '>
-                        {/* <Link to={"/resumebuild"}><button className='print-btn'>Edit Data</button></Link>
-                        <Link to={"/selecttheme"}><button className='print-btn'>Change theme</button></Link> */}
-                        {/* <button className='print-btn' onClick={print}>Download</button> */}
+                       
                         <button onClick={print} className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:fr\om-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                             <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                                 Download
@@ -73,7 +71,7 @@ function Resume() {
                             <div>
                                 <div className='text-black'>{userdata.personal.email}</div><IoMdMail style={{ color: "black" }} />
                                 <div className='text-black'>{userdata.personal.mob}</div><BiMobileAlt style={{ color: "black" }} />
-                                <div className='text-black'>{userdata.personal.city}, {userdata.personal.country}</div><MdLocationOn style={{ color: "black" }} />
+                                <div className='text-black'>{userdata.personal.city}</div><MdLocationOn style={{ color: "black" }} />
                                 <div className='text-black'>{userdata.link.linkedin}</div><GrLinkedinOption style={{ color: "black" }} />
                                 <div className='text-black'>{userdata.link.github}</div><AiFillGithub style={{ color: "black" }} />
                             </div>

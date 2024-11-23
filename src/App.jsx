@@ -6,6 +6,9 @@ import Footer from './component/Footer/Footer'
 import BulidResume from './pages/BulidResume'
 import Resume from './component/Resume/Resume'
 import About from './pages/About'
+import Resume2 from './component/Resume/Resume2'
+import ResumeSelect from './component/ResumeSelect/ResumeSelect'
+import Resume3 from './component/Resume/resume3'
 
 const App = () => {
   return (
@@ -17,7 +20,10 @@ const App = () => {
               <Route path='/*' element={<Home />} ></Route>
               <Route path='/about' element={<About />} ></Route>
               <Route path='/built' element={<BulidResume />} ></Route>
+              <Route path='/choose' element={<ResumeSelect />} ></Route>
               <Route path='/resume' element={<Resume />} ></Route>
+              <Route path='/resume2' element={<Resume2 />} ></Route>
+              <Route path='/resume3' element={<Resume3 />} ></Route>
             </Routes>
           </div>
           <Footer />

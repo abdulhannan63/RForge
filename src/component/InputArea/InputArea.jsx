@@ -97,7 +97,7 @@ const InputArea = () => {
         dispatch(getuserdata(data))
         console.log(data);
 
-        navigate("/resume")
+        navigate("/choose")
     }
     const clrFunc = () => {
         // dispatch(clruserdata())
@@ -115,7 +115,7 @@ const InputArea = () => {
                             First Name
                         </label>
                         {/* here we had used the register for sack of  connecting this input field with form hook  */}
-                        <input  {...register("personal.name", { required: true })} className="bg-gray-900 p-2 w-full rounded-md" placeholder="Name" />
+                        <input  {...register("personal.firstname", { required: true })} className="bg-gray-900 p-2 w-full rounded-md" placeholder="Name" />
                     </div>
 
                     <div className="mb-4">
