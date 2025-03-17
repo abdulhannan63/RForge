@@ -9,7 +9,6 @@ const Navbar = () => {
             <nav className="bg-white   border-black-200 shadow-lg shadow-gray-900 dark:bg-black ">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src={logo} className="h-8" alt="RForge Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">RForge</span>
                     </a>
                     <button data-collapse-toggle="navbar-default" type="button" onClick={() => menu === "hidden" ? setmenu("block") : setmenu("hidden")} className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black-500 rounded-lg md:hidden hover:bg-black-100 focus:outline-none focus:ring-2 focus:ring-black-200 dark:text-black-400 dark:hover:bg-black-700 dark:focus:ring-black-600" aria-controls="navbar-default" aria-expanded="false">
